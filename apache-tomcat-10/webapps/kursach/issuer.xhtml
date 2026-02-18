@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">Эмитенты — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">Справочник эмитентов</ui:define>
+    
+    <ui:define name="content">
+        <p:panel styleClass="mb-3">
+            <h:form id="searchForm">
+                <div class="p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:inputText value="#{issuerController.searchTerm}" placeholder="Поиск по названию/сектору" style="width: 100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-3">
+                        <p:commandButton value="Найти" icon="pi pi-search" styleClass="ui-button-success" 
+                                        action="#{issuerController.search}" update=":issuersForm" style="width: 100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-3">
+                        <p:button value="Добавить эмитента" icon="pi pi-plus" outcome="issuer-edit" styleClass="ui-button-primary" style="width: 100%"/>
+                    </div>
+                </div>
+            </h:form>
+        </p:panel>
+        
+        <p:panel>
+            <h:form id="issuersForm">
+                <p:dataTable var="issuer" value="#{issuerController.issuers}" emptyMessage="Эмитенты не найдены" responsiveLayout="scroll">
+                    <p:column headerText="Название">
+                        <h:outputText value="#{issuer.name}"/>
+                    </p:column>
+                    <p:column headerText="Страна">
+                        <h:outputText value="#{issuer.country}"/>
+                    </p:column>
+                    <p:column headerText="Сектор">
+                        <h:outputText value="#{issuer.sector}"/>
+                    </p:column>
+                    <p:column headerText="Рейтинг">
+                        <h:outputText value="#{issuer.rating}"/>
+                    </p:column>
+                    <p:column style="width:100px; text-align: center">
+                        <p:commandButton icon="pi pi-pencil" styleClass="rounded-button ui-button-warning mr-2" 
+                                         title="Редактировать" action="#{issuerController.edit(issuer.id)}"/>
+                        <p:commandButton icon="pi pi-trash" styleClass="rounded-button ui-button-danger" 
+                                         title="Удалить" action="#{issuerController.delete(issuer.id)}"
+                                         update="@form"/>
+                    </p:column>
+                </p:dataTable>
+            </h:form>
+        </p:panel>
+    </ui:define>
+</ui:composition>
+
+</html> 

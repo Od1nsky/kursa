@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">#{transactionController.transaction.id != null ? 'Редактирование операции' : 'Новая операция'} — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">#{transactionController.transaction.id != null ? 'Редактирование операции' : 'Новая операция'}</ui:define>
+    
+    <ui:define name="content">
+        <h:form id="transactionForm">
+            <p:panel>
+                <div class="p-field">
+                    <p:outputLabel for="account" value="Счёт"/>
+                    <p:selectOneMenu id="account" value="#{transactionController.accountId}" style="width:100%" required="true" requiredMessage="Выберите счёт">
+                        <f:selectItem itemLabel="Выберите счёт" itemValue="" noSelectionOption="true"/>
+                        <f:selectItems value="#{transactionController.accounts}" var="acc" itemLabel="#{acc.accountNumber} — #{acc.ownerName}" itemValue="#{acc.id}"/>
+                    </p:selectOneMenu>
+                    <p:message for="account"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="security" value="Ценная бумага"/>
+                    <p:selectOneMenu id="security" value="#{transactionController.securityId}" style="width:100%" required="true" requiredMessage="Выберите бумагу">
+                        <f:selectItem itemLabel="Выберите бумагу" itemValue="" noSelectionOption="true"/>
+                        <f:selectItems value="#{transactionController.securities}" var="sec" itemLabel="#{sec.ticker} — #{sec.name}" itemValue="#{sec.id}"/>
+                    </p:selectOneMenu>
+                    <p:message for="security"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="type" value="Тип операции"/>
+                    <p:selectOneMenu id="type" value="#{transactionController.transaction.type}" style="width:100%" required="true" requiredMessage="Выберите тип">
+                        <f:selectItem itemLabel="Выберите тип" itemValue="" noSelectionOption="true"/>
+                        <f:selectItems value="#{transactionController.transactionTypes}" var="type" itemLabel="#{type}" itemValue="#{type}"/>
+                    </p:selectOneMenu>
+                    <p:message for="type"/>
+                </div>
+                
+                <div class="p-field p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="date" value="Дата"/>
+                        <p:datePicker id="date" value="#{transactionController.transaction.tradeDate}" pattern="yyyy-MM-dd" showIcon="true" required="true" requiredMessage="Укажите дату" style="width:100%"/>
+                        <p:message for="date"/>
+                    </div>
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="quantity" value="Количество"/>
+                        <p:inputNumber id="quantity" value="#{transactionController.transaction.quantity}" decimalPlaces="4" thousandSeparator=" " required="true" requiredMessage="Укажите количество" style="width:100%"/>
+                        <p:message for="quantity"/>
+                    </div>
+                </div>
+                
+                <div class="p-field p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="price" value="Цена"/>
+                        <p:inputNumber id="price" value="#{transactionController.transaction.price}" decimalPlaces="4" thousandSeparator=" " required="true" requiredMessage="Укажите цену" style="width:100%"/>
+                        <p:message for="price"/>
+                    </div>
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="fees" value="Комиссия"/>
+                        <p:inputNumber id="fees" value="#{transactionController.transaction.fees}" decimalPlaces="2" thousandSeparator=" " style="width:100%"/>
+                    </div>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="notes" value="Комментарий"/>
+                    <p:inputTextarea id="notes" value="#{transactionController.transaction.notes}" rows="3" autoResize="true" style="width:100%"/>
+                </div>
+                
+                <div class="form-buttons">
+                    <p:commandButton value="Сохранить" action="#{transactionController.save}" icon="pi pi-check" styleClass="ui-button-success"/>
+                    <p:button value="Отмена" outcome="transaction" icon="pi pi-times" styleClass="ui-button-secondary"/>
+                </div>
+            </p:panel>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

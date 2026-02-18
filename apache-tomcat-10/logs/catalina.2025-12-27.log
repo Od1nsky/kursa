@@ -1,0 +1,8 @@
+27-Dec-2025 13:22:53.245 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+27-Dec-2025 13:22:53.268 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Dec-2025 13:22:53.471 INFO [Thread-1] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed ============================================
+27-Dec-2025 13:22:53.472 INFO [Thread-1] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed Подсистема работы с ценными бумагами остановлена
+27-Dec-2025 13:22:53.472 INFO [Thread-1] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed ============================================
+27-Dec-2025 13:22:53.585 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [kursach] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Dec-2025 13:22:53.637 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+27-Dec-2025 13:22:53.708 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]

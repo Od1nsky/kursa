@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Отключаем кэширование классов, чтобы избежать проблем с несовместимостью версий -->
+    <JarScanner>
+        <JarScanFilter defaultTldScan="false"/>
+    </JarScanner>
+    
+    <!-- Включаем делегирование классов для Weld -->
+    <Loader delegate="true"/>
+
+    <Manager pathname=""/>
+    
+    <!-- Ресурс BeanManager для CDI интеграции, через BeanManagerFactoryName, который не требует явного класса резолвера -->
+    <Resource name="BeanManager"
+              auth="Container"
+              type="jakarta.enterprise.inject.spi.BeanManager"
+              factory="org.jboss.weld.resources.ManagerObjectFactory"/>
+              
+    <!-- Настройка подключения к базе данных PostgreSQL -->
+    <Resource name="jdbc/kursachDB" 
+              auth="Container" 
+              type="jakarta.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/kursach_vlad"
+              username="project_role" 
+              password="project_role"
+              maxTotal="20" 
+              maxIdle="10"
+              maxWaitMillis="-1"
+              validationQuery="SELECT 1"/>
+</Context> 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_3_0.xsd"
+    version="3.0">
+    
+    <!-- Явно указываем версию JSF -->
+    <factory>
+        <faces-context-factory>
+            com.sun.faces.context.FacesContextFactoryImpl
+        </faces-context-factory>
+    </factory>
+    
+    <application>
+        <locale-config>
+            <default-locale>ru</default-locale>
+            <supported-locale>ru</supported-locale>
+            <supported-locale>en</supported-locale>
+        </locale-config>
+        <resource-bundle>
+            <base-name>messages</base-name>
+            <var>msg</var>
+        </resource-bundle>
+        
+        <!-- CDI интеграция происходит автоматически через Weld -->
+    </application>
+    
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>home</from-outcome>
+            <to-view-id>/index.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
+    
+    <!-- Удаляем регистрацию слушателя жизненного цикла, так как он только ServletContextListener, а не PhaseListener -->
+    
+</faces-config> 

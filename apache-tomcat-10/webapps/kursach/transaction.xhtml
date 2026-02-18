@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">Журнал операций — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">Журнал операций по ценным бумагам</ui:define>
+    
+    <ui:define name="content">
+        <p:panel styleClass="mb-3">
+            <h:form id="txFilters">
+                <div class="p-grid">
+                    <div class="p-col-12 p-md-3">
+                        <p:outputLabel for="filterAccount" value="Счёт"/>
+                        <p:selectOneMenu id="filterAccount" value="#{transactionController.filterAccountId}" style="width:100%">
+                            <f:selectItem itemLabel="Все счета" itemValue="" noSelectionOption="true"/>
+                            <f:selectItems value="#{transactionController.accounts}" var="acc" itemLabel="#{acc.accountNumber} — #{acc.ownerName}" itemValue="#{acc.id}"/>
+                        </p:selectOneMenu>
+                    </div>
+                    <div class="p-col-12 p-md-3">
+                        <p:outputLabel for="filterSecurity" value="Ценная бумага"/>
+                        <p:selectOneMenu id="filterSecurity" value="#{transactionController.filterSecurityId}" style="width:100%">
+                            <f:selectItem itemLabel="Все бумаги" itemValue="" noSelectionOption="true"/>
+                            <f:selectItems value="#{transactionController.securities}" var="sec" itemLabel="#{sec.ticker} — #{sec.name}" itemValue="#{sec.id}"/>
+                        </p:selectOneMenu>
+                    </div>
+                    <div class="p-col-12 p-md-2">
+                        <p:outputLabel for="filterType" value="Тип"/>
+                        <p:selectOneMenu id="filterType" value="#{transactionController.typeFilter}" style="width:100%">
+                            <f:selectItem itemLabel="Все" itemValue="" noSelectionOption="true"/>
+                            <f:selectItems value="#{transactionController.transactionTypes}" var="type" itemLabel="#{type}" itemValue="#{type}"/>
+                        </p:selectOneMenu>
+                    </div>
+                    <div class="p-col-12 p-md-2">
+                        <p:outputLabel for="from" value="С"/>
+                        <p:datePicker id="from" value="#{transactionController.fromDate}" pattern="yyyy-MM-dd" showIcon="true" style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-2">
+                        <p:outputLabel for="to" value="По"/>
+                        <p:datePicker id="to" value="#{transactionController.toDate}" pattern="yyyy-MM-dd" showIcon="true" style="width:100%"/>
+                    </div>
+                </div>
+                <div class="p-d-flex p-jc-end mt-2">
+                    <p:commandButton value="Применить" icon="pi pi-filter" styleClass="ui-button-success mr-2"
+                                     action="#{transactionController.applyFilters}" update=":transactionsTable"/>
+                    <p:commandButton value="Сброс" icon="pi pi-times" styleClass="ui-button-secondary"
+                                     action="#{transactionController.resetFilters}" update=":transactionsTable"/>
+                </div>
+            </h:form>
+        </p:panel>
+        
+        <p:panel>
+            <h:form id="transactionsTable">
+                <p:dataTable var="tx" value="#{transactionController.transactions}" paginator="true" rows="10" emptyMessage="Сделки не найдены" responsiveLayout="scroll">
+                    <p:column headerText="Дата" style="text-align:center;">
+                        <h:outputText value="#{tx.formattedTradeDate}"/>
+                    </p:column>
+                    <p:column headerText="Счёт">
+                        <h:outputText value="#{tx.account != null ? tx.account.accountNumber : '—'}"/>
+                    </p:column>
+                    <p:column headerText="Бумага">
+                        <h:outputText value="#{tx.security != null ? tx.security.ticker : '—'}"/>
+                    </p:column>
+                    <p:column headerText="Тип" style="text-align:center;">
+                        <h:outputText value="#{tx.type}"/>
+                    </p:column>
+                    <p:column headerText="Кол-во" style="text-align:right;">
+                        <h:outputText value="#{tx.quantity}">
+                            <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column headerText="Цена" style="text-align:right;">
+                        <h:outputText value="#{tx.price}">
+                            <f:convertNumber minFractionDigits="2" maxFractionDigits="4"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column headerText="Комиссия" style="text-align:right;">
+                        <h:outputText value="#{tx.fees}">
+                            <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column headerText="Сумма" style="text-align:right;">
+                        <h:outputText value="#{tx.netValue}">
+                            <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column style="width:130px;text-align:center;">
+                        <p:commandButton icon="pi pi-pencil" styleClass="rounded-button ui-button-warning mr-2" action="#{transactionController.edit(tx.id)}" title="Редактировать"/>
+                        <p:commandButton icon="pi pi-trash" styleClass="rounded-button ui-button-danger" action="#{transactionController.delete(tx.id)}" update="@form" title="Удалить"/>
+                    </p:column>
+                </p:dataTable>
+                <div class="p-d-flex p-jc-end mt-3">
+                    <p:button value="Добавить операцию" icon="pi pi-plus" outcome="transaction-edit" styleClass="ui-button-primary"/>
+                </div>
+            </h:form>
+        </p:panel>
+    </ui:define>
+</ui:composition>
+
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">Инвестиционные счета — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">Реестр инвестиционных счетов</ui:define>
+    
+    <ui:define name="content">
+        <p:panel styleClass="mb-3">
+            <h:form id="accountFilters">
+                <div class="p-grid">
+                    <div class="p-col-12 p-md-5">
+                        <p:inputText value="#{investmentAccountController.ownerFilter}" placeholder="Поиск по владельцу" style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-4">
+                        <p:inputText value="#{investmentAccountController.strategyFilter}" placeholder="Фильтр по стратегии" style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-3">
+                        <p:commandButton value="Применить" icon="pi pi-filter" styleClass="ui-button-success mb-2" style="width:100%"
+                                         action="#{investmentAccountController.filter}" update=":accountsTable"/>
+                        <p:commandButton value="Сброс" icon="pi pi-times" styleClass="ui-button-secondary" style="width:100%"
+                                         action="#{investmentAccountController.resetFilters}" update=":accountsTable :accountFilters"/>
+                    </div>
+                </div>
+            </h:form>
+        </p:panel>
+        
+        <p:panel>
+            <h:form id="accountsTable">
+                <p:dataTable var="account" value="#{investmentAccountController.accounts}" emptyMessage="Счета не найдены" paginator="true" rows="10" responsiveLayout="scroll">
+                    <p:column headerText="Номер счета">
+                        <h:outputText value="#{account.accountNumber}"/>
+                    </p:column>
+                    <p:column headerText="Владелец">
+                        <h:outputText value="#{account.ownerName}"/>
+                    </p:column>
+                    <p:column headerText="Стратегия">
+                        <h:outputText value="#{account.strategy}"/>
+                    </p:column>
+                    <p:column headerText="Базовая валюта" style="text-align:center;">
+                        <h:outputText value="#{account.baseCurrency}"/>
+                    </p:column>
+                    <p:column headerText="Баланс" style="text-align:right;">
+                        <h:outputText value="#{account.cashBalance}">
+                            <f:convertNumber minFractionDigits="2" maxFractionDigits="2"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column headerText="Открыт" style="text-align:center;">
+                        <h:outputText value="#{account.formattedOpenedDate}"/>
+                    </p:column>
+                    <p:column style="width:130px;text-align:center;">
+                        <p:commandButton icon="pi pi-pencil" styleClass="rounded-button ui-button-warning mr-2" action="#{investmentAccountController.edit(account.id)}" title="Редактировать"/>
+                        <p:commandButton icon="pi pi-trash" styleClass="rounded-button ui-button-danger" action="#{investmentAccountController.delete(account.id)}" update="@form" title="Удалить"/>
+                    </p:column>
+                </p:dataTable>
+                <div class="p-d-flex p-jc-end mt-3">
+                    <p:button value="Добавить счёт" outcome="account-edit" icon="pi pi-plus" styleClass="ui-button-primary"/>
+                </div>
+            </h:form>
+        </p:panel>
+    </ui:define>
+</ui:composition>
+
+</html>

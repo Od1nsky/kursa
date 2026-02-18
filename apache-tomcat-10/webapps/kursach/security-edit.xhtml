@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">#{securityController.security.id != null ? 'Редактирование бумаги' : 'Новая бумага'} — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">#{securityController.security.id != null ? 'Редактирование бумаги' : 'Создание новой бумаги'}</ui:define>
+    
+    <ui:define name="content">
+        <h:form id="securityForm">
+            <p:panel>
+                <div class="p-field">
+                    <p:outputLabel for="ticker" value="Тикер" />
+                    <p:inputText id="ticker" value="#{securityController.security.ticker}"
+                                 required="true" requiredMessage="Укажите тикер"
+                                 maxlength="12" style="width:100%" />
+                    <p:message for="ticker"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="name" value="Название бумаги" />
+                    <p:inputText id="name" value="#{securityController.security.name}"
+                                 required="true" requiredMessage="Введите название"
+                                 style="width:100%" />
+                    <p:message for="name"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="issuer" value="Эмитент" />
+                    <p:selectOneMenu id="issuer" value="#{securityController.issuerId}" style="width:100%"
+                                     required="true" requiredMessage="Выберите эмитента">
+                        <f:selectItem itemLabel="Выберите эмитента" itemValue="" noSelectionOption="true"/>
+                        <f:selectItems value="#{securityController.issuers}" var="issuer"
+                                       itemLabel="#{issuer.name}" itemValue="#{issuer.id}"/>
+                    </p:selectOneMenu>
+                    <p:message for="issuer"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="type" value="Тип бумаги" />
+                    <p:selectOneMenu id="type" value="#{securityController.security.type}" style="width:100%"
+                                     required="true" requiredMessage="Выберите тип">
+                        <f:selectItem itemLabel="Выберите тип" itemValue="" noSelectionOption="true"/>
+                        <f:selectItems value="#{securityController.securityTypes}" var="type"
+                                       itemValue="#{type}" itemLabel="#{type}"/>
+                    </p:selectOneMenu>
+                    <p:message for="type"/>
+                </div>
+                
+                <div class="p-field p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="currency" value="Валюта" />
+                        <p:inputText id="currency" value="#{securityController.security.currency}" maxlength="3" style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="lastPrice" value="Текущая цена" />
+                        <p:inputNumber id="lastPrice" value="#{securityController.security.lastPrice}" decimalPlaces="4" thousandSeparator=" " style="width:100%"/>
+                    </div>
+                </div>
+                
+                <div class="p-field p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="dividendYield" value="Дивидендная доходность, %" />
+                        <p:inputNumber id="dividendYield" value="#{securityController.security.dividendYield}" decimalPlaces="4" thousandSeparator=" " style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="maturityDate" value="Дата погашения (для облигаций)" />
+                        <p:datePicker id="maturityDate" value="#{securityController.security.maturityDate}" pattern="yyyy-MM-dd" showIcon="true" style="width:100%"/>
+                    </div>
+                </div>
+                
+                <div class="form-buttons">
+                    <p:commandButton value="Сохранить" action="#{securityController.save}" icon="pi pi-check" styleClass="ui-button-success" />
+                    <p:button value="Отмена" outcome="security" icon="pi pi-times" styleClass="ui-button-secondary" />
+                </div>
+            </p:panel>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

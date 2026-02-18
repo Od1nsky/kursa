@@ -1,0 +1,278 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Шапка */
+#header {
+    background-color: #2196F3;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Основное содержимое */
+#content {
+    min-height: calc(100vh - 200px);
+    margin-top: 20px;
+}
+
+/* Подвал */
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Панели на главной странице */
+.welcome-panel {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-panel {
+    text-align: center;
+    height: 280px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: white;
+    border-top: 4px solid #2196F3;
+}
+
+.dashboard-panel:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-panel .p-panel-titlebar {
+    background-color: transparent;
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: none;
+    padding-bottom: 0;
+}
+
+.dashboard-panel .p-panel-content {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px 0;
+}
+
+.dashboard-icon {
+    margin: 15px 0;
+    transition: transform 0.2s;
+}
+
+.dashboard-panel:hover .dashboard-icon {
+    transform: scale(1.1);
+}
+
+.dashboard-panel p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0 15px;
+}
+
+.dashboard-panel .p-button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    transition: background-color 0.3s;
+}
+
+.dashboard-panel .p-button:hover {
+    background-color: #1976D2;
+    border-color: #1976D2;
+}
+
+/* Различные цвета для разных типов панелей */
+.dashboard-panel:nth-child(2) {
+    border-top-color: #2196F3; /* Учебные планы - синий */
+}
+
+.dashboard-panel:nth-child(3) {
+    border-top-color: #4CAF50; /* Дисциплины - зеленый */
+}
+
+.dashboard-panel:nth-child(4) {
+    border-top-color: #FF9800; /* Кафедры - оранжевый */
+}
+
+.dashboard-panel:nth-child(5) {
+    border-top-color: #9C27B0; /* Факультеты - фиолетовый */
+}
+
+/* Формы */
+.p-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.p-inputtext, .p-password, .p-dropdown {
+    width: 100%;
+}
+
+/* Страница входа */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #2196F3;
+    margin-bottom: 20px;
+}
+
+/* Таблицы */
+.p-datatable .p-datatable-header {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    padding: 0.75rem;
+}
+
+/* Кнопки действий в таблице */
+.action-column {
+    width: 150px;
+    text-align: center;
+}
+
+.action-column .p-button {
+    margin-right: 5px;
+}
+
+/* Стили для форм редактирования */
+.edit-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-buttons .p-button {
+    margin-left: 10px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .dashboard-panel {
+        height: auto;
+        padding: 15px;
+    }
+    
+    .action-column {
+        width: 100px;
+    }
+}
+
+/* Инфо о пользователе */
+.user-info {
+    display: inline-block;
+    margin-right: 15px;
+    color: #003366;
+    background-color: #e9f5ff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: normal;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.user-info .pi-user {
+    margin-right: 5px;
+    color: #0066cc;
+}
+
+.user-info strong {
+    font-weight: bold;
+    color: #004080;
+}
+
+/* Стили для различных ролей пользователей */
+.user-role {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.user-role.admin {
+    background-color: #ff5722;
+    color: white;
+}
+
+.user-role.teacher {
+    background-color: #4caf50;
+    color: white;
+}
+
+.user-role.student {
+    background-color: #2196f3;
+    color: white;
+}
+
+.logout-button {
+    margin-left: 10px;
+} 

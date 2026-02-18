@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">Редактирование эмитента — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">#{issuerController.editId != null ? 'Редактирование эмитента' : 'Создание нового эмитента'}</ui:define>
+    
+    <ui:define name="content">
+        <h:form id="editForm" styleClass="edit-form">
+            <p:panel>
+                <div class="p-field">
+                    <p:outputLabel for="issuerName" value="Название эмитента" />
+                    <p:inputText id="issuerName" value="#{issuerController.issuer.name}" 
+                                required="true" requiredMessage="Введите название эмитента"
+                                style="width: 100%" />
+                    <p:message for="issuerName" />
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="country" value="Страна" />
+                    <p:inputText id="country" value="#{issuerController.issuer.country}" 
+                                required="true" requiredMessage="Укажите страну"
+                                style="width: 100%" />
+                    <p:message for="country" />
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="sector" value="Сектор" />
+                    <p:inputText id="sector" value="#{issuerController.issuer.sector}" 
+                                style="width: 100%" />
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="rating" value="Кредитный рейтинг" />
+                    <p:inputText id="rating" value="#{issuerController.issuer.rating}" 
+                                style="width: 100%" />
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="description" value="Описание / комментарий" />
+                    <p:inputTextarea id="description" value="#{issuerController.issuer.description}" rows="4"
+                                     autoResize="true" style="width: 100%" />
+                </div>
+                
+                <div class="form-buttons">
+                    <p:commandButton value="Сохранить" action="#{issuerController.save}" 
+                                    icon="pi pi-check" styleClass="ui-button-success" />
+                    <p:button value="Отмена" outcome="issuer" icon="pi pi-times" styleClass="ui-button-secondary" />
+                </div>
+            </p:panel>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html> 

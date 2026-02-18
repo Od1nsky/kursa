@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="/WEB-INF/templates/template.xhtml">
+    <ui:define name="title">#{investmentAccountController.account.id != null ? 'Редактирование счёта' : 'Новый счёт'} — Подсистема ценных бумаг</ui:define>
+    
+    <ui:define name="pageTitle">#{investmentAccountController.account.id != null ? 'Редактирование счёта' : 'Создание инвестиционного счёта'}</ui:define>
+    
+    <ui:define name="content">
+        <h:form id="accountForm">
+            <p:panel>
+                <div class="p-field">
+                    <p:outputLabel for="number" value="Номер счёта"/>
+                    <p:inputText id="number" value="#{investmentAccountController.account.accountNumber}" required="true" requiredMessage="Введите номер счёта" style="width:100%"/>
+                    <p:message for="number"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="owner" value="Владелец"/>
+                    <p:inputText id="owner" value="#{investmentAccountController.account.ownerName}" required="true" requiredMessage="Укажите владельца" style="width:100%"/>
+                    <p:message for="owner"/>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="strategy" value="Стратегия"/>
+                    <p:inputText id="strategy" value="#{investmentAccountController.account.strategy}" style="width:100%"/>
+                </div>
+                
+                <div class="p-field p-grid">
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="currency" value="Базовая валюта"/>
+                        <p:inputText id="currency" value="#{investmentAccountController.account.baseCurrency}" maxlength="3" style="width:100%"/>
+                    </div>
+                    <div class="p-col-12 p-md-6">
+                        <p:outputLabel for="opened" value="Дата открытия"/>
+                        <p:datePicker id="opened" value="#{investmentAccountController.account.openedDate}" pattern="yyyy-MM-dd" showIcon="true" style="width:100%"/>
+                    </div>
+                </div>
+                
+                <div class="p-field">
+                    <p:outputLabel for="balance" value="Денежный баланс"/>
+                    <p:inputNumber id="balance" value="#{investmentAccountController.account.cashBalance}" decimalPlaces="2" thousandSeparator=" " style="width:100%"/>
+                </div>
+                
+                <div class="form-buttons">
+                    <p:commandButton value="Сохранить" icon="pi pi-check" styleClass="ui-button-success" action="#{investmentAccountController.save}"/>
+                    <p:button value="Отмена" icon="pi pi-times" styleClass="ui-button-secondary" outcome="account"/>
+                </div>
+            </p:panel>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</html>

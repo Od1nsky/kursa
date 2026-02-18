@@ -1,0 +1,1703 @@
+22-Dec-2025 20:40:19.001 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/
+22-Dec-2025 20:40:19.002 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Сессия отсутствует, создаем новую
+22-Dec-2025 20:40:19.004 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.SessionListener.sessionCreated Сессия создана: B54E6DD2F1B0B213A82F3CF53A15A937
+22-Dec-2025 20:40:19.008 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:40:19.019 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/login.xhtml
+22-Dec-2025 20:40:19.103 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:40:19.103 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:40:19.104 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:40:19.104 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:40:19.104 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:40:19.104 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:40:19.107 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/login.xhtml
+22-Dec-2025 20:40:19.112 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/login.xhtml
+22-Dec-2025 20:40:19.116 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/login.xhtml
+22-Dec-2025 20:40:20.584 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/index.xhtml
+22-Dec-2025 20:40:20.666 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:40:20.669 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:40:20.669 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:40:20.669 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:40:20.670 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:40:20.670 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:40:20.671 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:40:20.674 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:40:20.698 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:40:57.693 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/index.xhtml
+22-Dec-2025 20:40:57.741 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:40:57.743 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:40:57.743 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:40:57.743 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:40:57.744 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:40:57.745 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:40:57.746 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:40:57.748 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:40:57.768 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:40:58.988 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/issuer.xhtml
+22-Dec-2025 20:40:59.175 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:40:59.176 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:40:59.176 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:40:59.176 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:40:59.176 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:40:59.176 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:40:59.180 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:40:59.180 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:40:59.182 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:40:59.199 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:41:11.720 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/issuer.xhtml
+22-Dec-2025 20:41:17.590 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/issuer-edit.xhtml
+22-Dec-2025 20:41:17.800 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:41:17.809 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:41:17.809 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:41:17.809 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:41:17.809 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:41:17.809 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:41:17.915 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:41:17.917 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:41:17.939 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:41:34.465 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/issuer-edit.xhtml
+22-Dec-2025 20:41:34.547 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/issuer.xhtml
+22-Dec-2025 20:41:34.714 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:41:34.715 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:41:34.715 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:41:34.715 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:41:34.715 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:41:34.715 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:41:34.721 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:41:34.721 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:41:34.723 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:41:34.739 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:41:43.000 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security.xhtml
+22-Dec-2025 20:41:43.196 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:41:43.197 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:41:43.198 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:41:43.209 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:41:43.211 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:41:43.212 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:41:43.333 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:41:43.333 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:41:43.333 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:41:43.354 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:41:54.697 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security.xhtml
+22-Dec-2025 20:42:00.356 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:00.575 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:42:00.576 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:42:00.576 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:42:00.577 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:42:00.577 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:42:00.577 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:42:00.580 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.css.xhtml
+22-Dec-2025 20:42:00.581 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:42:00.711 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:42:00.715 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.js.xhtml
+22-Dec-2025 20:42:00.720 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/datepicker/datepicker.js.xhtml
+22-Dec-2025 20:42:00.721 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputmask/inputmask.js.xhtml
+22-Dec-2025 20:42:00.744 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:42:21.789 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:21.858 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:21.858 ERROR [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:21.868 WARNING [http-nio-8080-exec-7] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:21.873 SEVERE [http-nio-8080-exec-7] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:23.767 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:23.798 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:23.798 ERROR [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:23.798 WARNING [http-nio-8080-exec-10] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:23.800 SEVERE [http-nio-8080-exec-10] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:25.502 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:25.525 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:25.525 ERROR [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:25.526 WARNING [http-nio-8080-exec-8] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:25.527 SEVERE [http-nio-8080-exec-8] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:26.737 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:26.762 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:26.762 ERROR [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:26.763 WARNING [http-nio-8080-exec-1] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:26.765 SEVERE [http-nio-8080-exec-1] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:26.950 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:26.976 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:26.977 ERROR [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:26.977 WARNING [http-nio-8080-exec-4] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:26.978 SEVERE [http-nio-8080-exec-4] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:27.147 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:27.175 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:27.175 ERROR [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:27.176 WARNING [http-nio-8080-exec-2] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:27.178 SEVERE [http-nio-8080-exec-2] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:27.328 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:27.360 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 22003
+22-Dec-2025 20:42:27.361 ERROR [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+22-Dec-2025 20:42:27.361 WARNING [http-nio-8080-exec-3] com.sun.faces.lifecycle.InvokeApplicationPhase.execute #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	jakarta.faces.FacesException: #{securityController.save}: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:88)
+		at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+		at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+		at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+		at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+		at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+		at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+		at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+		at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+		at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+		... 34 more
+	Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+		at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+		at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+		at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+		at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+		at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+		at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+		at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+		at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+		... 35 more
+	Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+		at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+		at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+		at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+		at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+		at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+		... 48 more
+	Caused by: org.hibernate.exception.DataException: could not execute statement
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+		at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+		at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+		at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+		at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+		at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+		at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+		at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+		at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+		at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+		at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+		at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+		at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+		at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+		at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+		at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+		at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+		at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+		... 55 more
+	Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+		at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+		at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+		at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+		at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+		at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+		at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+		at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+		... 73 more
+22-Dec-2025 20:42:27.363 SEVERE [http-nio-8080-exec-3] com.sun.faces.context.AjaxExceptionHandlerImpl.handlePartialResponseError jakarta.faces.el.EvaluationException: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:77)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:75)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:64)
+	at jakarta.faces.component.UICommand.broadcast(UICommand.java:213)
+	at jakarta.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:852)
+	at jakarta.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1329)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:56)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:72)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:159)
+	at jakarta.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:681)
+	at jakarta.faces.webapp.FacesServlet.service(FacesServlet.java:437)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.kursach.kursach.security.AuthenticationFilter.doFilter(AuthenticationFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.RuntimeException: Ошибка при сохранении бумаги
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:72)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:12)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl$Proxy$_$$_WeldClientProxy.save(Unknown Source)
+	at org.kursach.kursach.service.SecurityService.saveSecurity(SecurityService.java:37)
+	at org.kursach.kursach.service.SecurityService$Proxy$_$$_WeldClientProxy.saveSecurity(Unknown Source)
+	at org.kursach.kursach.controller.SecurityController.save(SecurityController.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:253)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:267)
+	at org.jboss.weld.module.web.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.module.web.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:70)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:67)
+	... 35 more
+Caused by: jakarta.persistence.PersistenceException: Converting `org.hibernate.exception.DataException` to JPA `PersistenceException` : could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:165)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:175)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:182)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:739)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:717)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at org.jboss.weld.generated.proxies.persistence.EntityManager$418561985$Proxy$_$$_WeldClientProxy.persist(Unknown Source)
+	at org.kursach.kursach.repository.SecurityRepositoryImpl.save(SecurityRepositoryImpl.java:60)
+	... 48 more
+Caused by: org.hibernate.exception.DataException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3276)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3886)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:80)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:184)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:129)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:53)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:733)
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 4 must round to an absolute value less than 10^6.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 73 more
+
+22-Dec-2025 20:42:32.908 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security-edit.xhtml
+22-Dec-2025 20:42:32.968 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/security.xhtml
+22-Dec-2025 20:42:33.143 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:42:33.152 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:42:33.154 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:42:33.154 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:42:33.154 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:42:33.154 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:42:33.156 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:42:33.157 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:42:33.158 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:42:33.301 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:42:41.893 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:42.082 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:42:42.083 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:42:42.100 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:42:42.100 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:42:42.100 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:42:42.100 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:42:42.207 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:42:42.210 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:42:42.212 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:42:42.232 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:42:44.793 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:48.362 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:49.483 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:50.853 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:51.296 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:51.736 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:51.953 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:42:54.535 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:43:04.735 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account-edit.xhtml
+22-Dec-2025 20:43:04.926 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:43:04.930 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:43:04.938 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:43:04.938 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:43:04.938 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:43:04.938 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.css.xhtml
+22-Dec-2025 20:43:04.944 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:43:04.944 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:43:04.953 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputmask/inputmask.js.xhtml
+22-Dec-2025 20:43:04.954 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:43:04.954 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/datepicker/datepicker.js.xhtml
+22-Dec-2025 20:43:04.954 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.js.xhtml
+22-Dec-2025 20:43:04.987 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:43:18.172 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account-edit.xhtml
+22-Dec-2025 20:43:18.225 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/account.xhtml
+22-Dec-2025 20:43:18.409 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:43:18.416 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:43:18.426 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:43:18.427 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:43:18.427 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:43:18.427 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:43:18.428 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:43:18.428 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:43:18.430 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:43:18.574 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:43:26.527 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/transaction.xhtml
+22-Dec-2025 20:43:26.735 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:43:26.736 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:43:26.740 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:43:26.744 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:43:26.746 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:43:26.747 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:43:26.845 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:43:26.847 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:43:26.853 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/datepicker/datepicker.js.xhtml
+22-Dec-2025 20:43:26.853 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/touch/touchswipe.js.xhtml
+22-Dec-2025 20:43:26.855 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputmask/inputmask.js.xhtml
+22-Dec-2025 20:43:26.871 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:43:35.796 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/transaction.xhtml
+22-Dec-2025 20:43:42.038 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/transaction-edit.xhtml
+22-Dec-2025 20:43:42.261 INFO [http-nio-8080-exec-1] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/theme.css.xhtml
+22-Dec-2025 20:43:42.262 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/style.css.xhtml
+22-Dec-2025 20:43:42.262 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.css.xhtml
+22-Dec-2025 20:43:42.263 INFO [http-nio-8080-exec-7] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery.js.xhtml
+22-Dec-2025 20:43:42.263 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/jquery/jquery-plugins.js.xhtml
+22-Dec-2025 20:43:42.263 INFO [http-nio-8080-exec-4] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.css.xhtml
+22-Dec-2025 20:43:42.389 INFO [http-nio-8080-exec-9] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.css.xhtml
+22-Dec-2025 20:43:42.390 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/core.js.xhtml
+22-Dec-2025 20:43:42.395 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/components.js.xhtml
+22-Dec-2025 20:43:42.398 INFO [http-nio-8080-exec-8] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputmask/inputmask.js.xhtml
+22-Dec-2025 20:43:42.398 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/inputnumber/inputnumber.js.xhtml
+22-Dec-2025 20:43:42.398 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/datepicker/datepicker.js.xhtml
+22-Dec-2025 20:43:42.420 INFO [http-nio-8080-exec-5] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/jakarta.faces.resource/primeicons/primeicons.woff2.xhtml
+22-Dec-2025 20:47:12.175 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/
+22-Dec-2025 20:47:12.175 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Сессия отсутствует, создаем новую
+22-Dec-2025 20:47:12.176 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.SessionListener.sessionCreated Сессия создана: 205D26EBBFCB7C6CAFA3947275E6146A
+22-Dec-2025 20:47:12.177 INFO [http-nio-8080-exec-10] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:47:13.295 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/
+22-Dec-2025 20:47:13.295 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Сессия отсутствует, создаем новую
+22-Dec-2025 20:47:13.296 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.SessionListener.sessionCreated Сессия создана: 875201E20B818AA450C1ADBB1FAFB185
+22-Dec-2025 20:47:13.297 INFO [http-nio-8080-exec-3] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:47:24.165 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/
+22-Dec-2025 20:47:24.166 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Сессия отсутствует, создаем новую
+22-Dec-2025 20:47:24.166 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.SessionListener.sessionCreated Сессия создана: B22B67B7CA63874641581C491D180D43
+22-Dec-2025 20:47:24.166 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:47:24.168 INFO [http-nio-8080-exec-2] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/login.xhtml
+22-Dec-2025 20:47:35.504 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Обработка запроса: /kursach/index.xhtml
+22-Dec-2025 20:47:35.504 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Сессия отсутствует, создаем новую
+22-Dec-2025 20:47:35.504 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.SessionListener.sessionCreated Сессия создана: 4CC0A68FAB7DB14FC283520C8D4CA3B9
+22-Dec-2025 20:47:35.505 INFO [http-nio-8080-exec-6] org.kursach.kursach.security.AuthenticationFilter.doFilter Пользователь не авторизован, перенаправление на страницу входа
+22-Dec-2025 20:47:42.491 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Dec-2025 20:47:42.492 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Dec-2025 20:47:42.496 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Dec-2025 20:47:42.523 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Сессия уничтожена: B54E6DD2F1B0B213A82F3CF53A15A937
+22-Dec-2025 20:47:42.523 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Пользователь teacher вышел из системы (сессия закрыта)
+22-Dec-2025 20:47:42.524 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Сессия уничтожена: 875201E20B818AA450C1ADBB1FAFB185
+22-Dec-2025 20:47:42.524 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Сессия уничтожена: 205D26EBBFCB7C6CAFA3947275E6146A
+22-Dec-2025 20:47:42.524 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Сессия уничтожена: B22B67B7CA63874641581C491D180D43
+22-Dec-2025 20:47:42.524 INFO [main] org.kursach.kursach.security.SessionListener.sessionDestroyed Сессия уничтожена: 4CC0A68FAB7DB14FC283520C8D4CA3B9
+22-Dec-2025 20:47:42.525 INFO [main] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed ============================================
+22-Dec-2025 20:47:42.525 INFO [main] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed Подсистема работы с ценными бумагами остановлена
+22-Dec-2025 20:47:42.525 INFO [main] org.kursach.kursach.config.AppLifecycleListener.contextDestroyed ============================================
+22-Dec-2025 20:47:42.534 INFO [main] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.stop HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/kursach_vlad]
+22-Dec-2025 20:47:42.537 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [kursach] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Dec-2025 20:47:42.541 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Dec-2025 20:47:42.544 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
